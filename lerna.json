@@ -1,7 +1,11 @@
 {
-  "npmClient":"npm",
+  "version": "0.0.1",
   "packages": [
     "packages/*"
   ],
-  "version": "0.1.0"
+  "command": {
+    "publish": {
+      "graphType": "all"
+    }
+  }
 }
