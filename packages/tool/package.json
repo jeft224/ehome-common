@@ -1,0 +1,19 @@
+{
+  "name": "@ehome-common/tool",
+  "version": "1.0.0",
+  "description": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "src/index.js",
+  "types": "src/index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c rollup.config.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
