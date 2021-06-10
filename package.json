@@ -2,10 +2,8 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "commitizen-init": " npx commitizen init cz-conventional-changelog --save-dev --save-exact",
     "lint": "eslint packages/*/src/**/*.js --fix",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "test": "",
     "publish-release": "lerna publish --force-publish --registry https://registry.npmjs.org/",
     "publish-beta": "lerna publish --force-publish --dist-tag beta --registry https://registry.npmjs.org/"
   },
@@ -16,7 +14,7 @@
     "@babel/preset-env": "^7.14.5",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
-    "cz-conventional-changelog": "^3.3.0",
+    "conventional-changelog": "^3.1.24",
     "eslint": "^7.28.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.23.4",
@@ -38,13 +36,13 @@
   },
   "lint-staged": {
     "*.{js,jsx}": [
-      "eslint --fix",
-      "git add . & git cz"
+      "eslint  --cache --fix",
+      "git add "
     ]
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/conventional-changelog"
     }
   }
 }
