@@ -1,6 +1,6 @@
 {
   "name": "@ehome-common/tool",
-  "version": "0.0.5-alpha.0",
+  "version": "0.0.5",
   "description": "> TODO: description",
   "author": "abert <zhiwei.luo@zuolin.com>",
   "homepage": "https://github.com/jeft224/ehome-common#readme",
@@ -26,5 +26,6 @@
   },
   "bugs": {
     "url": "https://github.com/jeft224/ehome-common/issues"
-  }
+  },
+  "gitHead": "cb1c74c52ad13059bcefdb1d21dd6bb80aafdf4b"
 }
