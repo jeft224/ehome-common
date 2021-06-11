@@ -1,20 +1,30 @@
 {
   "name": "@ehome-common/tool",
-  "version": "0.0.4-alpha.0",
-  "description": "",
+  "version": "0.0.5-alpha.0",
+  "description": "> TODO: description",
+  "author": "abert <zhiwei.luo@zuolin.com>",
+  "homepage": "https://github.com/jeft224/ehome-common#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
   "publishConfig": {
     "access": "public"
   },
-  "main": "src/index.js",
-  "types": "src/index.js",
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeft224/ehome-common.git"
+  },
   "scripts": {
     "test": "jest",
     "build": "rollup -c rollup.config.js"
   },
-  "dependencies": {
-    "lodash": "^4.17.21"
-  },
-  "gitHead": "d89c203504b49dfc628237f8dfb1b2db936a22b7"
+  "bugs": {
+    "url": "https://github.com/jeft224/ehome-common/issues"
+  }
 }
