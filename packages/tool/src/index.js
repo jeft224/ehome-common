@@ -1,5 +1,6 @@
-import is from './is'
+'use strict';
 
+import is from './is'
 
 export default {
   is

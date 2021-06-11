@@ -14,7 +14,7 @@
     "@babel/preset-env": "^7.14.5",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
-    "conventional-changelog": "^3.1.24",
+    "conventional-changelog-cli": "^2.1.1",
     "eslint": "^7.28.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.23.4",
@@ -39,10 +39,5 @@
       "eslint  --cache --fix",
       "git add "
     ]
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/conventional-changelog"
-    }
   }
 }
