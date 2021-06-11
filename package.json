@@ -21,9 +21,9 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-standard": "^5.0.0",
-    "husky": "^6.0.0",
+    "husky": "^4.3.0",
     "lerna": "^4.0.0",
-    "lint-staged": "^11.0.0",
+    "lint-staged": "^10.2.11",
     "rollup": "^2.51.1",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-node-resolve": "^5.2.0"
