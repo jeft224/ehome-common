@@ -1,6 +1,6 @@
 {
   "name": "@ehome-common/tool",
-  "version": "0.0.3",
+  "version": "0.0.4-alpha.0",
   "description": "",
   "publishConfig": {
     "access": "public"
@@ -15,5 +15,6 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "gitHead": "d89c203504b49dfc628237f8dfb1b2db936a22b7"
 }
