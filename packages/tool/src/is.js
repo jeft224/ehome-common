@@ -1,4 +1,4 @@
-import _ from 'lodash'
+// import _ from 'lodash'
 
 const wx = () => /MicroMessenger/i.test(window.navigator.userAgent)
 
@@ -52,6 +52,7 @@ const zuolin = () =>
           count++
         } else {
           clearInterval(checkInterval)
+          // eslint-disable-next-line prefer-promise-reject-errors
           return reject(false)
         }
       } else {
@@ -61,6 +62,11 @@ const zuolin = () =>
     }, 20)
   })
 
+// 校验密码
+const validatePwd = (str) => {
+  return /^[A-Za-z0-9]+$/.test(str)
+}
+
 const is = {
   wx,
   mac,
@@ -69,9 +75,9 @@ const is = {
   ios,
   zuolin,
   dingding,
-  zuolin,
   miniWX,
   h5,
+  validatePwd
 }
 
 export default is

@@ -27,5 +27,7 @@
   "bugs": {
     "url": "https://github.com/jeft224/ehome-common/issues"
   },
-  "gitHead": "cb1c74c52ad13059bcefdb1d21dd6bb80aafdf4b"
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
