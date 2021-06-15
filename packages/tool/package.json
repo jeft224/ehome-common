@@ -1,6 +1,6 @@
 {
   "name": "@ehome-common/tool",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "> TODO: description",
   "author": "abert <zhiwei.luo@zuolin.com>",
   "homepage": "https://github.com/jeft224/ehome-common#readme",
@@ -11,7 +11,8 @@
     "test": "__tests__"
   },
   "files": [
-    "src"
+    "src",
+    "dist"
   ],
   "publishConfig": {
     "access": "public"
