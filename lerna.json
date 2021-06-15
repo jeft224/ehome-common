@@ -6,7 +6,10 @@
   "command": {
     "publish": {
       "graphType": "all",
-      "message": "chore(release): publish %s"
+      "message": "chore(release): publish %s",
+      "allowBranch": "master",  // 只在master分支执行publish
+      "conventionalCommits": true,  // 生成changelog文件
+      "exact": true  // 准确的依赖项
     }
   }
 }
