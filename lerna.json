@@ -1,12 +1,12 @@
 {
-  "version": "0.0.8",
+  "version": "0.0.9",
   "packages": [
     "packages/*"
   ],
   "command": {
     "publish": {
       "graphType": "all",
-      "message":"chore(release): publish %s"
+      "message": "chore(release): publish %s"
     }
   }
 }
