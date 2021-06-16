@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const tool = require('..');
+const tool = require('../index')
 
 describe('@ehome-common/tool', () => {
-    it('needs tests');
-});
+  it('needs tests')
+})
