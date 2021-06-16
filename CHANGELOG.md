@@ -1,4 +1,35 @@
-# [](https://github.com/jeft224/ehome-common/compare/v0.0.5...v) (2021-06-11)
+# [](https://github.com/jeft224/ehome-common/compare/v0.0.10...v) (2021-06-16)
+
+
+### Bug Fixes
+
+* **tool:** 屏蔽type的类型判断的导出 ([f6ad41a](https://github.com/jeft224/ehome-common/commit/f6ad41aa860ab39c99dcc3af246840229d0141b1))
+
+
+### Features
+
+* **tool:** 新增处理URL字符串转对象的通用方法getQueryParams ([64c2fde](https://github.com/jeft224/ehome-common/commit/64c2fde3a9a44a726278b583173a5df352a88088))
+* **tool:** 新增处理对象转URL字符串的通用方法buildQueryParams ([d541dcf](https://github.com/jeft224/ehome-common/commit/d541dcfbdff008c785af1b501f34d3f5f88de94e))
+
+
+
+## [0.0.10](https://github.com/jeft224/ehome-common/compare/v0.0.9...v0.0.10) (2021-06-15)
+
+
+
+## [0.0.9](https://github.com/jeft224/ehome-common/compare/v0.0.8...v0.0.9) (2021-06-15)
+
+
+
+## [0.0.8](https://github.com/jeft224/ehome-common/compare/v0.0.7...v0.0.8) (2021-06-13)
+
+
+
+## [0.0.7](https://github.com/jeft224/ehome-common/compare/v0.0.6...v0.0.7) (2021-06-13)
+
+
+
+## [0.0.6](https://github.com/jeft224/ehome-common/compare/v0.0.5...v0.0.6) (2021-06-13)
 
 
 
