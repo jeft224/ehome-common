@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['standard', 'plugin:import/errors'],
-  plugins: ['import'],
+  plugins: ['import', 'jest'],
   env: {
     es6: true,
     node: true
