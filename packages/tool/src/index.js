@@ -1,11 +1,17 @@
 'use strict'
 
 import is from './is'
+// import type from './type'
+import cache from './cache'
 
 export default {
-  is
+  is,
+  // type,
+  cache
 }
 
 export {
-  is
+  is,
+  // type,
+  cache
 }
