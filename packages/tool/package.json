@@ -4,7 +4,7 @@
   "description": "> TODO: description",
   "author": "abert <zhiwei.luo@zuolin.com>",
   "homepage": "https://github.com/jeft224/ehome-common#readme",
-  "license": "ISC",
+  "license": "MIT",
   "main": "index.js",
   "directories": {
     "src": "src",
