@@ -16,6 +16,7 @@ module.exports = {
   testPathIgnorePatterns: [ // 忽略测试路径
     '/node_modules/'
   ],
+  testEnvironment: 'jsdom',
   coverageThreshold: { // 配置测试最低阈值
     global: {
       branches: 100,
