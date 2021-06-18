@@ -1,5 +1,5 @@
 {
-  "version": "0.0.10",
+  "version": "0.1.0",
   "packages": [
     "packages/*"
   ],
@@ -7,9 +7,9 @@
     "publish": {
       "graphType": "all",
       "message": "chore(release): publish %s",
-      "allowBranch": "master",  
-      "conventionalCommits": true,  
-      "exact": true 
+      "allowBranch": "master",
+      "conventionalCommits": true,
+      "exact": true
     }
   }
 }
