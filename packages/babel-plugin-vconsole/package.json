@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-vconsole",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "用于移除prod打包移除vconsole",
   "keywords": [
     "vconsole",

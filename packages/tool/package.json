@@ -1,6 +1,6 @@
 {
   "name": "@ehome-common/tool",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "> TODO: description",
   "author": "abert <zhiwei.luo@zuolin.com>",
   "homepage": "https://github.com/jeft224/ehome-common#readme",
@@ -31,5 +31,5 @@
   "dependencies": {
     "lodash": "^4.17.21"
   },
-  "gitHead": "f83f2e6e90ffecfe0c3a1abd027d19a11b879d0c"
+  "gitHead": "79808eede3efd0587010d178e79788f2ffc25d2d"
 }
