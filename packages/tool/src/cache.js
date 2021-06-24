@@ -27,7 +27,11 @@ const set = (key, data, cacheTime) => {
     }, cacheTime)
   }
 
-  cache.set(key, { data: JSON.stringify(data), timer, startTime: new Date().getTime() })
+  cache.set(key, {
+    data: JSON.stringify(data),
+    timer,
+    startTime: new Date().getTime()
+  })
 }
 
 const get = (key) => {

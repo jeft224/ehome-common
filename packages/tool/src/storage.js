@@ -7,12 +7,12 @@ const __MODULE_PREFIX_NAME__ = '_EHOME-COMMON_'
 
 // 本地缓存的工厂模式
 class StorageFactory {
-  constructor (prefix, target) {
+  constructor(prefix, target) {
     this.prefix = __NAME__ + `_${prefix}`
     this.target = target
   }
 
-  set (key, data) {
+  set(key, data) {
     try {
       this.target.setItem(`${this.prefix}${key}`, JSON.stringify(data))
     } catch (error) {
@@ -20,7 +20,7 @@ class StorageFactory {
     }
   }
 
-  get (key) {
+  get(key) {
     const value = this.target.getItem(`${this.prefix}${key}`)
     try {
       return value ? JSON.parse(value) : value
@@ -30,21 +30,27 @@ class StorageFactory {
     }
   }
 
-  remove (key) {
+  remove(key) {
     this.target.removeItem(`${this.prefix}${key}`)
   }
 
-  clear () {
+  clear() {
     this.target.clear()
   }
 
   // TODO 获取所有缓存 待实现
-  getAll () {}
+  getAll() {}
 }
 
-const LocalStorage = new StorageFactory(__MODULE_PREFIX_NAME__, window.LocalStorage)
+const LocalStorage = new StorageFactory(
+  __MODULE_PREFIX_NAME__,
+  window.LocalStorage
+)
 
-const SessionStorage = new StorageFactory(__MODULE_PREFIX_NAME__, window.sessionStorage)
+const SessionStorage = new StorageFactory(
+  __MODULE_PREFIX_NAME__,
+  window.sessionStorage
+)
 
 const Storage = LocalStorage
 
