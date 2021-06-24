@@ -5,11 +5,13 @@
   ],
   "command": {
     "publish": {
+      "ignoreChanges": ["ignored-file", "*.md"],
       "graphType": "all",
       "message": "chore(release): publish %s",
       "allowBranch": "master",
       "conventionalCommits": true,
-      "exact": true
+      "exact": true,
+      "registry":"https://registry.npmjs.org/"
     }
   }
 }
