@@ -9,7 +9,7 @@
       "graphType": "all",
       "message": "chore(release): publish %s",
       "allowBranch": "master",
-      "conventionalCommits": true,
+      "conventionalCommits": false,
       "exact": true,
       "registry":"https://registry.npmjs.org/"
     }
