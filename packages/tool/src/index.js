@@ -11,6 +11,7 @@ import {
 } from './storage'
 import getQueryParams from './get_query_params'
 import buildQueryParams from './build_query_params'
+import compareVersion from './compare_version'
 
 export default {
   is,
@@ -21,7 +22,8 @@ export default {
   Storage,
   SessionStorage,
   getQueryParams,
-  buildQueryParams
+  buildQueryParams,
+  compareVersion
 }
 
 export {
@@ -33,5 +35,6 @@ export {
   Storage,
   SessionStorage,
   getQueryParams,
-  buildQueryParams
+  buildQueryParams,
+  compareVersion
 }
