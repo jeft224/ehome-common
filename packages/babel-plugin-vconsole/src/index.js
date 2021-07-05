@@ -6,10 +6,10 @@ module.exports = babelPluginVConsole
  * @param {*} param0
  * @returns
  */
-function babelPluginVConsole ({ types: t }) {
+function babelPluginVConsole({ types: t }) {
   const VcRegex = /(.)*([VC|vc|Vc|vC]onsole)$/gi
 
-  function replaceIdentifierToEmpty (path, value) {
+  function replaceIdentifierToEmpty(path, value) {
     if (value.match(VcRegex)) {
       const newIdentifier = t.identifier('')
       path.replaceWith(newIdentifier)
@@ -18,11 +18,11 @@ function babelPluginVConsole ({ types: t }) {
   return {
     name: 'babel-plugin-vconsole',
     visitor: {
-      ImportDeclaration (path) {
+      ImportDeclaration(path) {
         const node = path.node
         replaceIdentifierToEmpty(path, node.source.value)
       },
-      NewExpression (path) {
+      NewExpression(path) {
         const node = path.node
         replaceIdentifierToEmpty(path, node.callee.name)
       }

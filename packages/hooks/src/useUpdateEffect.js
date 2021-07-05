@@ -3,7 +3,7 @@
 import { useEffect } from 'react'
 import useFirstMountState from './useFirstMountState'
 
-function useUpdateEffect (fn, deps) {
+function useUpdateEffect(fn, deps) {
   const isFirstMount = useFirstMountState()
 
   useEffect(() => {

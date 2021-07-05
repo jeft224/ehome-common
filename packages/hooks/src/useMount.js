@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react'
 
-function useMount (fn) {
+function useMount(fn) {
   useEffect(() => {
     fn()
   }, [])

@@ -2,7 +2,7 @@
 
 import { useRef } from 'react'
 
-function useFirstMountState () {
+function useFirstMountState() {
   const isFirstMount = useRef(true)
 
   if (isFirstMount.current) {

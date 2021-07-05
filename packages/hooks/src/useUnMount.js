@@ -2,7 +2,7 @@
 
 import { useRef, useEffect } from 'react'
 
-function useUnMount (fn) {
+function useUnMount(fn) {
   const fnRef = useRef(fn)
 
   fnRef.current = fn
